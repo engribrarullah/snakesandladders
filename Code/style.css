@@ -1,0 +1,94 @@
+.token-player1 {
+    background-image: url("img/blue.png");
+    background-size: 30px;
+    background-repeat:no-repeat ;
+    background-position: center; 
+    }
+
+  .token-player2 {
+    background-image: url("img/red.png");
+    background-size: 30px;
+    background-repeat:no-repeat ;
+    background-position: center; 
+  }
+
+  body {
+    background-image: url("img/backgroud.jpg");
+    background-size: 1366px 768px;
+    background-position: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f1f1f1;
+    font-family: 'Poppins';
+    text-align: center;
+  }
+  table {
+    width: 50%;
+    height: 90%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: fade-in 1s ease-in-out;
+    background-image: url("img/backgroud.avif");
+    background-size: 100% 100%
+  }
+
+  td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .diceroll {
+display: flex;
+margin-top: 40px;
+margin-right: 10%;
+animation: fade-in 1s ease-in-out;
+}
+.dice {
+width: 80px;
+height: 80px;
+background: linear-gradient(45deg, #ffffff, #a8aaae);
+border-radius: 50%;
+text-align: center;
+line-height: 80px;
+font-size: 36px;
+margin: 0 20px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+font-family: 'Poppins';
+font-weight: bold;
+}
+
+
+.roll-button {
+background: linear-gradient(45deg, #329189, #9d37a7);
+font-family: 'Poppins';
+color: #fff;
+padding: 10px 20px;
+font-size: 18px;
+border: 0;
+border-radius: 40px;
+cursor: pointer;
+transition: background-color 0.3s ease-in-out;
+}
+
+.roll-button:hover {
+background: linear-gradient(45deg, #9d37a7, #329189);
+}
+label{
+  color: #E2D9AF;
+  text-shadow: 0 0 3px black;
+}
